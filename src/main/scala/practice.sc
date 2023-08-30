@@ -41,3 +41,5 @@ concrete members and can be extended. It cannot be instantiated. The
 difference is that a given class can only extend one abstract class, however,
 it can mixin one to many traits. Also, a trait cannot have constructor
 arguments. */
+
+/* goodnight */
