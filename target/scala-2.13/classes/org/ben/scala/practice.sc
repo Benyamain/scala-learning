@@ -35,9 +35,5 @@ println(square.area)
 
 val rectangle = new Rectangle(0, 3, 3, 2)
 println(rectangle.desc)
-
-/* A trait is similar to an abstract class: it can declare several abstract or
-concrete members and can be extended. It cannot be instantiated. The
-difference is that a given class can only extend one abstract class, however,
-it can mixin one to many traits. Also, a trait cannot have constructor
-arguments. */
+println(rectangle.descInHere)
+println(rectangle.descSuper)
